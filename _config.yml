@@ -116,4 +116,13 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-W1H7N2ZWCC"
-    anonymize_ip: false # default
+    anonymize_ip: false
+
+repository: JosephBlock/blog.josephblock.com
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "photon-dark"
+    issue_term: "pathname"
+    label: "comment"
